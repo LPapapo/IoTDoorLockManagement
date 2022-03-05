@@ -12,43 +12,40 @@ I’ll be using the following hardware:
 
 ---
 
-A 3D printing case with an integrated pi camera was created for this project.
+[**How does it work?**](How does it work?)
+
+A 3D printi_ng case with an integrated pi camera was created for this project._
 
 ![IMG_3567](https://aws1.discourse-cdn.com/balena/optimized/2X/1/140bee934c001faab0cea84362f952cf3fe75b4f_2_281x375.jpeg)
 
 **The steps would be as follows**:
 
-Admin logs in to the local web page and registers a user account.  
- 
+*   _Admin logs in to the local web page and registers a user account._ 
 
 ![Registration_Website](https://aws1.discourse-cdn.com/balena/optimized/2X/d/d9fb4d4bfc2fb6381b09e6fcbee6842612bb80b0_2_517x225.jpeg)
 
 [**Registration\_Website3402×1488 121 KB**](https://aws1.discourse-cdn.com/balena/original/2X/d/d9fb4d4bfc2fb6381b09e6fcbee6842612bb80b0.jpeg)
 
-*   A QR code is sent to the user’s email address.( UUID random generated QR code )  
-     
+*   _A QR code is sent to the user’s email address.( UUID random generated QR code )_
 
 ![QRcode](https://aws1.discourse-cdn.com/balena/optimized/2X/f/fcdfa2244e7075cd88e2a5db007439b8c180b8ac_2_383x375.jpeg)
 
 [**QRcode679×664 49.5 KB**](https://aws1.discourse-cdn.com/balena/original/2X/f/fcdfa2244e7075cd88e2a5db007439b8c180b8ac.jpeg)
 
-*   User is registered in a Database.  
-     
+*   _User is registered in a Database._
 
 ![UserDB](https://aws1.discourse-cdn.com/balena/optimized/2X/6/6ba8a4a00930a3c493afb22441568c91a6998b28_2_517x277.jpeg)
 
 [**UserDB1920×1031 93.6 KB**](https://aws1.discourse-cdn.com/balena/original/2X/6/6ba8a4a00930a3c493afb22441568c91a6998b28.jpeg)
 
-*   By scanning his QR code, the user unlocks the door.(After 5 seconds, the door locks again.)  
-     
+*   _By scanning his QR code, the user unlocks the door.(After 5 seconds, the door locks again.)_
 
 ![ezgif.com-gif-maker](https://aws1.discourse-cdn.com/balena/original/2X/b/b66f5ea4dcb3a05c2ee759b0430995084aeedfda.gif)
 
-*   The office’s access log is accessible to the administrator.  
-     
+*   _The office’s access log is accessible to the administrator._
 
 ![AccessDB](https://aws1.discourse-cdn.com/balena/optimized/2X/8/88025e49de7d101b4cadf8a4a8db166f60cc6283_2_517x276.jpeg)
 
 [**AccessDB1920×1028 170 KB**](https://aws1.discourse-cdn.com/balena/original/2X/8/88025e49de7d101b4cadf8a4a8db166f60cc6283.jpeg)
 
-*   A new QR code will be sent to all registered users every day at 00:00.
+*   To improve security, a new QR code will be sent automatically to all registered users every day at 00:00.
