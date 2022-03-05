@@ -14,7 +14,7 @@ I’ll be using the following hardware:
 
 **How does it work?**
 
-A 3D printi_ng case with an integrated pi camera was created for this project._
+A 3D printing case with an integrated pi camera was created for this project._
 
 ![IMG_3567](https://aws1.discourse-cdn.com/balena/optimized/2X/1/140bee934c001faab0cea84362f952cf3fe75b4f_2_281x375.jpeg)
 
