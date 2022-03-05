@@ -12,7 +12,7 @@ I’ll be using the following hardware:
 
 ---
 
-[**How does it work?**]
+**How does it work?**
 
 A 3D printi_ng case with an integrated pi camera was created for this project._
 
