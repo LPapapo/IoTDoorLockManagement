@@ -51,5 +51,6 @@ A 3D printing case with an integrated pi camera was created for this project._
 *   To improve security, a new QR code will be sent automatically to all registered users every day at 00:00.
   ---
  ***Taking it further***
+
 This project can be adapted to operate in a Docker container on balenaCloud.
-To utilize a single raspberry to open several doors, an RF Link Transmitter and Receiver - 433MHz can be used to send a signal wirelessly to unlock more doors.
+Moreover,to utilize a single raspberry to open several doors, an RF Link Transmitter and Receiver - 433MHz can be used to send a signal wirelessly to unlock more doors.
