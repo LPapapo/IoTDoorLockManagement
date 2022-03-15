@@ -5,4 +5,4 @@ WTForms==3.0.1
 mysqlclient==2.1.0
 RPi.GPIO==0.7.1
 flask-mysqldb==1.0.1
-opencv-python
+opencv-python==4.5.5.64

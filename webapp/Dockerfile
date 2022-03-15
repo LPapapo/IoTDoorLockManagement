@@ -1,12 +1,10 @@
-FROM balenalib/raspberrypi3-python
+FROM balenalib/raspberrypi3-python:3.9-bullseye
 
-RUN apt-get update
-RUN apt-get install -y gcc
-RUN apt-get install -y default-libmysqlclient-dev
+RUN install_packages default-libmysqlclient-dev
 ENV PYTHONBUFFERED 1
-
+RUN pip install  setuptools wheel
 COPY requirements.txt /tmp/requirements.txt
-RUN pip install -r /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt --extra-index-url=https://www.piwheels.org/simple
 
 COPY webcam.py ./
 COPY app.py ./
